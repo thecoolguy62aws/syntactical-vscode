@@ -2,12 +2,12 @@
   "name": "syntactical",
   "displayName": "Syntactical",
   "description": "Adds support for Syntactical.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thecoolguy62aws/syntactical-vscode.git"
   },
-  "icon": "icons/icon.png",
+  "icon": "icons/logo.png",
   "publisher": "thecoolguy62aws",
   "engines": {
     "vscode": "^1.109.0"
