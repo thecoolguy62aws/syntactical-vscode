@@ -4,6 +4,10 @@ All notable changes to the "syntactical-vscode" extension will be documented in 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.6
+
+- Transparency didn't work in icon.png in 1.0.4. This fixes it.
+
 ## 1.0.5
 
 - Make icon text bigger
