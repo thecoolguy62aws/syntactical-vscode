@@ -4,6 +4,10 @@ All notable changes to the "syntactical-vscode" extension will be documented in 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+# 1.0.2
+
+- Change file icon
+
 ## 1.0.1
 
 - Add logo
