@@ -2,7 +2,9 @@
 
 All notable changes to the "syntactical-vscode" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.1.0
+
+- Add highlighting for use keyword change in [Syntactical version 1.4.0](https://pypi.org/project/syntactical/1.4.0/).
 
 ## 1.0.6
 

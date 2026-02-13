@@ -6,7 +6,7 @@
 		{"include": "#string-double"},
 		{"include": "#string-single"},
 		{"include": "#numbers"},
-		{"include": "#use"}
+		{"include": "#import"}
 	],
 	"repository": {
 		"keywords": {
@@ -55,9 +55,9 @@
 				}
 			]
 		},
-		"use": {
-			"match": "\\b(use|from|as)\\b",
-			"name": "keyword.control.use.syntactical"
+		"import": {
+			"match": "\\b(import|from|as)\\b",
+			"name": "keyword.control.import.syntactical"
 		}
 	},
 	"scopeName": "source.syntactical"
