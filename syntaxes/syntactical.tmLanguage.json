@@ -18,6 +18,10 @@
 				{
 					"name": "comment.line.double-slash.syntactical",
 					"match": "//.*$"
+				},
+				{
+					"name": "keyword.operator.logical.syntactical",
+					"match": "\\b(or|and|not)\\b"
 				}
 			]
 		},

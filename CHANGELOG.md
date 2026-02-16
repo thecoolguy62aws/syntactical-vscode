@@ -2,6 +2,10 @@
 
 All notable changes to the "syntactical-vscode" extension will be documented in this file.
 
+## 1.1.1
+
+- Add logical operator keywords.
+
 ## 1.1.0
 
 - Add highlighting for use keyword change in [Syntactical version 1.4.0](https://pypi.org/project/syntactical/1.4.0/).
