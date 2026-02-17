@@ -13,7 +13,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.syntactical",
-					"match": "\\b(if|else|while|for|in|return|break|func|class|with)\\b"
+					"match": "\\b(if|else|while|for|in|return|break|func|class|with|to)\\b"
 				},
 				{
 					"name": "comment.line.double-slash.syntactical",

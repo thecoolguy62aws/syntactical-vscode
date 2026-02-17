@@ -2,6 +2,10 @@
 
 All notable changes to the "syntactical-vscode" extension will be documented in this file.
 
+## 1.1.2
+
+- Add `to` keyword in the context of for loops.
+
 ## 1.1.1
 
 - Add logical operator keywords.
