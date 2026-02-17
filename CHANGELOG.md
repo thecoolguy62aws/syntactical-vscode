@@ -2,6 +2,11 @@
 
 All notable changes to the "syntactical-vscode" extension will be documented in this file.
 
+## 1.1.3
+
+- Add highlighting for True and False
+- Fix logical operator highlighting
+
 ## 1.1.2
 
 - Add `to` keyword in the context of for loops.

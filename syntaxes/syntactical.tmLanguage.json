@@ -6,22 +6,19 @@
 		{"include": "#string-double"},
 		{"include": "#string-single"},
 		{"include": "#numbers"},
-		{"include": "#import"}
+		{"include": "#import"},
+		{"include": "#bools"}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [
 				{
 					"name": "keyword.control.syntactical",
-					"match": "\\b(if|else|while|for|in|return|break|func|class|with|to)\\b"
+					"match": "\\b(if|else|while|for|in|return|break|func|class|with|to|and|not|or)\\b"
 				},
 				{
 					"name": "comment.line.double-slash.syntactical",
 					"match": "//.*$"
-				},
-				{
-					"name": "keyword.operator.logical.syntactical",
-					"match": "\\b(or|and|not)\\b"
 				}
 			]
 		},
@@ -62,6 +59,10 @@
 		"import": {
 			"match": "\\b(import|from|as)\\b",
 			"name": "keyword.control.import.syntactical"
+		},
+		"bools": {
+			"name": "constant.language",
+			"match": "\\b(false|true|False|True)\\b"
 		}
 	},
 	"scopeName": "source.syntactical"
