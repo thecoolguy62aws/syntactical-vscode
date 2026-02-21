@@ -1,4 +1,4 @@
-# Syntactical Support
+# Syntactical VSCode
 
 Adds support for Syntactical.
 
