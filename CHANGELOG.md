@@ -2,6 +2,10 @@
 
 All notable changes to the "syntactical-vscode" extension will be documented in this file.
 
+## 1.2.0
+
+- Add highlighting for new keywords in [Syntactical version 2.2.0](https://pypi.org/project/syntactical/2.2.0/)
+
 ## 1.1.3
 
 - Add highlighting for True and False

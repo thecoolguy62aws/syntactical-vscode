@@ -14,7 +14,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.syntactical",
-					"match": "\\b(if|else|while|for|in|return|break|func|class|with|to|and|not|or)\\b"
+					"match": "\\b(if|else|while|for|in|return|func|class|with|to|and|not|or|global|break|continue|pass)\\b"
 				},
 				{
 					"name": "comment.line.double-slash.syntactical",
