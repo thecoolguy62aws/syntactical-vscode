@@ -2,6 +2,10 @@
 
 All notable changes to the "syntactical-vscode" extension will be documented in this file.
 
+## 1.3.0
+
+- Add `try`/`catch` statement highlighting
+
 ## 1.2.0
 
 - Add highlighting for new keywords in [Syntactical version 2.2.0](https://pypi.org/project/syntactical/2.2.0/)
