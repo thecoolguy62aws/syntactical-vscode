@@ -1,69 +1,69 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Syntactical",
-	"patterns": [
-		{"include": "#keywords"},
-		{"include": "#string-double"},
-		{"include": "#string-single"},
-		{"include": "#numbers"},
-		{"include": "#import"},
-		{"include": "#bools"}
-	],
-	"repository": {
-		"keywords": {
-			"patterns": [
-				{
-					"name": "keyword.control.syntactical",
-					"match": "\\b(if|else|while|for|in|return|func|class|with|to|and|not|or|global|break|continue|pass)\\b"
-				},
-				{
-					"name": "comment.line.double-slash.syntactical",
-					"match": "//.*$"
-				}
-			]
-		},
-		"string-double": {
-			"name": "string.quoted.double.syntactical",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.syntactical",
-					"match": "\\\\."
-				}
-			]
-		},
-		"string-single": {
-			"name": "string.quoted.single.syntactical",
-			"begin": "'",
-			"end": "'",
-			"patterns": [
-				{
-					"name": "constant.character.escape.syntactical",
-					"match": "\\\\."
-				}
-			]
-		},
-		"numbers": {
-			"patterns": [
-				{
-					"name": "constant.numeric.integer.syntactical",
-					"match": "\\b(\\d+)\\b"
-				},
-				{
-					"name": "constant.numeric.decimal.syntactical",
-					"match": "\\b(\\d+\\.\\d+)\\b"
-				}
-			]
-		},
-		"import": {
-			"match": "\\b(import|from|as)\\b",
-			"name": "keyword.control.import.syntactical"
-		},
-		"bools": {
-			"name": "constant.language",
-			"match": "\\b(false|true|False|True)\\b"
-		}
-	},
-	"scopeName": "source.syntactical"
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "Syntactical",
+    "patterns": [
+        { "include": "#keywords" },
+        { "include": "#string-double" },
+        { "include": "#string-single" },
+        { "include": "#numbers" },
+        { "include": "#import" },
+        { "include": "#bools" }
+    ],
+    "repository": {
+        "keywords": {
+            "patterns": [
+                {
+                    "name": "keyword.control.syntactical",
+                    "match": "\\b(if|else|while|for|in|return|func|class|with|to|and|not|or|global|break|continue|pass|try|catch)\\b"
+                },
+                {
+                    "name": "comment.line.double-slash.syntactical",
+                    "match": "//.*$"
+                }
+            ]
+        },
+        "string-double": {
+            "name": "string.quoted.double.syntactical",
+            "begin": "\"",
+            "end": "\"",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.syntactical",
+                    "match": "\\\\."
+                }
+            ]
+        },
+        "string-single": {
+            "name": "string.quoted.single.syntactical",
+            "begin": "'",
+            "end": "'",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.syntactical",
+                    "match": "\\\\."
+                }
+            ]
+        },
+        "numbers": {
+            "patterns": [
+                {
+                    "name": "constant.numeric.integer.syntactical",
+                    "match": "\\b(\\d+)\\b"
+                },
+                {
+                    "name": "constant.numeric.decimal.syntactical",
+                    "match": "\\b(\\d+\\.\\d+)\\b"
+                }
+            ]
+        },
+        "import": {
+            "match": "\\b(import|from|as)\\b",
+            "name": "keyword.control.import.syntactical"
+        },
+        "bools": {
+            "name": "constant.language",
+            "match": "\\b(false|true|False|True)\\b"
+        }
+    },
+    "scopeName": "source.syntactical"
 }
